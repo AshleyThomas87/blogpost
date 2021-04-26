@@ -1,0 +1,68 @@
+body {
+    background-color: rgba(30, 229, 255, 0.705);
+}
+
+
+h1 {
+    font-family: Cambria;
+    font-size: 62px;
+    text-align: center;
+    color:darkorange;
+    text-shadow: 5px, 8px rgba(0, 0, 0, 0.863);
+}
+
+h2 {
+    font-family: Cambria;
+    font-size: 25px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Cambria;
+    font-size: 25px;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 3px, 5px black;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: black;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    background-color: ghostwhite;
+
+}
+
+img {
+    width: 400px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.432);
+}
+
+.container {
+    padding-bottom: 15px;
+
+}
+
+.cards {
+    display: flex;
+   
+}
+
+#park {
+    flex: left;
+}
+
+#lake {
+    flex: right;
+}
+
+footer {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Cambria;
+    font-size: 20px;
+
+}

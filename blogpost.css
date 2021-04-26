@@ -1,0 +1,105 @@
+h1 {
+    font-family: Cambria;
+    font-size: 62px;
+    text-align: center;
+    color:darkorange;
+    text-shadow: 5px, 8px rgba(0, 0, 0, 0.863);
+}
+
+h2 {
+    font-family: Cambria;
+    font-size: 25px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Cambria;
+    font-size: 25px;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 3px, 5px black;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+
+}
+
+img {
+    width: 300px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.432);
+}
+
+#parks {
+    display: grid;
+    grid-template-columns: 2fr, 2fr;
+    grid-template-rows: 25%, 25%, 25%;
+    grid-gap: 10px;
+    row-gap: 10px;
+    column-gap: 5px;
+    grid-template-areas: 
+    "Canyon Chiricahua"
+    "Kartchner Petrified"
+    "Colossal";
+}
+
+#Canyon {
+    grid-area: Canyon;
+}
+
+#Chiricahua {
+    grid-area: Chirichua;
+}
+
+#Kartchner {
+    grid-area: Kartchner;
+}
+
+#Pertrified {
+    grid-area: Petrified;
+}
+
+#Colossal {
+    grid-area: Colossal;
+}
+
+.container {
+    padding-bottom: 15px;
+
+}
+
+.cards {
+    display: flex;
+   
+}
+
+#me {
+    flex: left;
+}
+
+#info {
+    flex: right;
+}
+
+
+
+
+
+footer {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Cambria;
+    font-size: 20px;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
