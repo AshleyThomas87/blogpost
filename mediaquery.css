@@ -1,0 +1,67 @@
+/* media query for blog home */
+@media screen and (max-width: 414px) {
+    .why{
+        width:100%;
+        overflow-x: hidden;
+        }
+
+    h1 {
+        font-size: 40px;
+        width: 90%;
+     
+    }
+
+    h2 {
+        font-size: 28px;
+        width: 90%;
+       
+    }
+
+    h3 {
+        font-size: 24px;
+        
+    }
+
+    .cards {
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .card {
+        width: 90%;
+       margin: 3vw;
+
+    }
+
+    img {
+        width: 80%;
+    }
+
+    footer {
+        font-size: 18px;
+        width: 90%;
+    }
+    
+}
+
+/* media query for blog post */
+@media screen and (max-width: 414px) {
+
+    .why{
+        width:100%;
+        overflow-x: hidden;
+        }
+
+ #parks {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+
+ }
+
+
+}
+    

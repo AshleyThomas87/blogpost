@@ -36,7 +36,7 @@ h3 {
 }
 
 img {
-    width: 400px;
+    width: 80%;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.432);
 }
 
@@ -66,3 +66,4 @@ footer {
     font-size: 20px;
 
 }
+

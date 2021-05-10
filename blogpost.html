@@ -6,19 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="blogpost.css">
+    <link rel="stylesheet" type="text/css" href="mediaquery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Blog Post</title>
 </head>
 
 <body>
     <navbar></navbar>
-
+<div class="why">
     <h1>Arizona's National Parks</h1>
 
     <div id="parks">
-        <div class="card"  id="Canyon">
+        <div class="card"  id="canyon">
             <div class="container">
-                <img src="images/GrandCanyon1.jfif" alt="Grand Canyon" id="grand">
+                <img src="images/GrandCanyon1.jfif" alt="Grand Canyon" id="nature">
                 <h3><b>Grand Canyon</b></h3>
                 <p>Grand Canyon's Flaming Gorge got its name for its
                     blazing red and orange colored, twelve-hundred-foot-high walls.
@@ -33,7 +34,7 @@
 
         <div class="card" id="Chiricahua">
             <div class="container">
-                <img src="images/Chiricahua2.jpg" alt="Chiricahua">
+                <img src="images/Chiricahua2.jpg" alt="Chiricahua" id="nature">
                 <h3><b>Chiricahua</b></h3>
                 <p>Chiricahua National Monument is a Hidden Gem
                     that sees less than 60,000 visitors a year.
@@ -44,7 +45,7 @@
 
         <div class="card" id="Kartchner">
             <div class="container">
-                <img src="images/KartchnerCaverns1.jpg" alt="Kartchner Caverns">
+                <img src="images/KartchnerCaverns1.jpg" alt="Kartchner Caverns" id="nature">
                 <h3><b>Kartchner Caverns</b></h3>
                 <p>The Public Finally Learned of the Kartchner Caverns
                     in 1988 discovered in 1984 by Gary Tenen and Randy Tufts.
@@ -58,7 +59,7 @@
 
         <div class="card" id="Petrified">
             <div class="container">
-                <img src="images/petrifiedforest3.jpg" alt="Petrified Forest">
+                <img src="images/petrifiedforest3.jpg" alt="Petrified Forest" id="nature">
                 <h3><b>Petrified Forest</b></h3>
                 <p>Is the only national park site that contains a segment of the
                     Historic Route 66 alignment. The brilliant colors in the petrified
@@ -71,7 +72,7 @@
 
         <div class="card" id="Colossal">
             <div class="container">
-                <img src="images/ColossalCave2.jpg" alt="Colossal Cave">
+                <img src="images/ColossalCave2.jpg" alt="Colossal Cave" id="nature">
                 <h3><b>Colossal Cave</b></h3>
                 <p>The cave was formed during the Mississippian Period. When water
                     seeped through the rocks and dissolved away part of the limestone. It's the third
@@ -83,16 +84,17 @@
         </div>
     </div>
 
-    <div class="cards">
 
-        <div class="card" id="me">
+
+    <div class="bio">
+        <div class="me" id="me">
             <div class="container">
-                <img src="images/myself.jpg" alt="Ashley Thomas">
+                <img src="images/myself.jpg" alt="Ashley Thomas" id="ash">
             </div>
         </div>
 
-        <div class="card">
-            <div class="container" id="info">
+        <div class="bioinfo">
+            <div class="myself" id="info">
                 <h3><b>Ashley Thomas</b></h3>
                 <p>Front End Developer</p>
                 <p>Banyan Labs</p>
@@ -115,6 +117,7 @@
         <a href="#" class="fa fa-linkedin"></a>
         <a href="#" class="fa fa-snapchat"></a>
     </footer>
+    </div>
 </body>
 
 </html>

@@ -1,3 +1,7 @@
+body {
+    background-color: rgba(30, 229, 255, 0.705);
+}
+
 h1 {
     font-family: Cambria;
     font-size: 62px;
@@ -18,72 +22,57 @@ h3 {
     text-align: center;
 }
 
-.card {
-    box-shadow: 3px, 5px black;
-    text-align: center;
-    width: 40%;
-    margin: auto;
-
-}
-
-img {
-    width: 300px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.432);
-}
-
 #parks {
     display: grid;
-    grid-template-columns: 2fr, 2fr;
-    grid-template-rows: 25%, 25%, 25%;
-    grid-gap: 10px;
-    row-gap: 10px;
-    column-gap: 5px;
-    grid-template-areas: 
-    "Canyon Chiricahua"
-    "Kartchner Petrified"
-    "Colossal";
+    grid-template-columns: 2fr 2fr 2fr;
+    margin-left: 30px;
 }
 
-#Canyon {
-    grid-area: Canyon;
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 375px;
+    margin-top: 50px;
+    background-color: ghostwhite;
 }
 
-#Chiricahua {
-    grid-area: Chirichua;
+#nature {
+    width: 100%;
+    object-fit: cover;
+    height: 15vw; 
 }
 
-#Kartchner {
-    grid-area: Kartchner;
+p {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-#Pertrified {
-    grid-area: Petrified;
-}
-
-#Colossal {
-    grid-area: Colossal;
-}
-
-.container {
-    padding-bottom: 15px;
-
-}
-
-.cards {
+.bio {
+    background-color: ghostwhite;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 50px;
+    margin-left: 28px;
+    margin-right: 28px;
     display: flex;
-   
 }
 
-#me {
+.me {
     flex: left;
 }
 
-#info {
-    flex: right;
+#ash {
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: gold;
+    border-style: ridge;
+    border-width: 5px;
+    margin-top: 3px;
+    margin-left: 3px;
 }
 
-
-
+.myself {
+    flex: right;
+    text-align: center;
+}
 
 
 footer {
