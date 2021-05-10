@@ -49,19 +49,38 @@
 /* media query for blog post */
 @media screen and (max-width: 414px) {
 
-    .why{
-        width:100%;
-        overflow-x: hidden;
-        }
-
  #parks {
     width: 100%;
     display: block;
     overflow: hidden;
     margin: 0 auto;
+ }
 
+ p {
+     padding-bottom: 10px;
  }
 
 
 }
     
+/* media quer for blog post */
+@media screen and (max-width: 768px) {
+    #parks {
+        width: 100%;
+        display:block;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .card {
+        width: 95%;
+       margin: 3vw;
+    }
+
+    p {
+        padding-left: 10px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+
+    }
+}
