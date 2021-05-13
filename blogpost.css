@@ -7,7 +7,15 @@ h1 {
     font-size: 62px;
     text-align: center;
     color:darkorange;
-    text-shadow: 5px, 8px rgba(0, 0, 0, 0.863);
+    text-shadow: 8px, 8px rgba(0, 0, 0, 0.863);
+}
+
+blockquote {
+    font-family: Cambria;
+    font-size: 24px;
+    text-align: center;
+    color:darkorange;
+    text-shadow: 8px, 8px rgba(0, 0, 0, 0.863);
 }
 
 h2 {
@@ -76,6 +84,9 @@ p {
 
 
 footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 30px;
     margin-bottom: 20px;
     margin-top: 20px;
     text-align: center;
