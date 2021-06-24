@@ -7,7 +7,7 @@ h1 {
     font-size: 62px;
     text-align: center;
     color:darkorange;
-    text-shadow: 8px, 8px rgba(0, 0, 0, 0.863);
+    text-shadow: 5px, 8px rgba(0, 0, 0, 0.863);
 }
 
 blockquote {
@@ -15,7 +15,7 @@ blockquote {
     font-size: 24px;
     text-align: center;
     color:darkorange;
-    text-shadow: 8px, 8px rgba(0, 0, 0, 0.863);
+    text-shadow: 3px, 5px rgba(0, 0, 0, 0.863);
 }
 
 h2 {
@@ -24,10 +24,29 @@ h2 {
     text-align: center;
 }
 
+
+.button {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {opacity: 1}
+
 h3 {
     font-family: Cambria;
     font-size: 25px;
     text-align: center;
+    padding-top: 30px;
 }
 
 #parks {
@@ -43,10 +62,26 @@ h3 {
     background-color: ghostwhite;
 }
 
-#nature {
+ #nature {
     width: 100%;
     object-fit: cover;
     height: 15vw; 
+} 
+
+figure {
+    margin: auto;
+    max-width: 100%;
+    object-fit: cover; 
+    height: 15vw;
+}
+
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }
 
 p {
