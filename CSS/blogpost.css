@@ -102,7 +102,7 @@ p {
     flex: left;
 }
 
-#ash {
+.biocontainer {
     object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border: gold;
@@ -121,14 +121,16 @@ p {
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin-left: 30px;
+    margin-left: 18%;
     margin-bottom: 20px;
     margin-top: 20px;
     text-align: center;
     font-family: Cambria;
     font-size: 20px;
+    width: 100%;
 
 }
+
 
 .fa {
     padding: 20px;

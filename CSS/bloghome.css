@@ -2,13 +2,32 @@ body {
     background-color: rgba(30, 229, 255, 0.705);
 }
 
+ul {
+    list-style-type: none;
+    margin-right: 55px;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    float: right;
+  }
+
+  a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-family: Cambria;
+    font-size: 22px;
+    color: darkorange;
+  }
 
 h1 {
     font-family: Cambria;
     font-size: 62px;
     text-align: center;
     color:darkorange;
-    text-shadow: 5px, 8px rgba(0, 0, 0, 0.863);
+   text-shadow: 3px 5px rgba(0, 0, 0, 0.61);
 }
 
 h2 {
@@ -19,8 +38,9 @@ h2 {
 
 h3 {
     font-family: Cambria;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
+    text-shadow: 2px 2px rgb(255, 140, 0);
 }
 
 .card {
@@ -59,11 +79,10 @@ img {
 }
 
 footer {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin: 20px 20px 20px 20px; 
+    display: inline;
     text-align: center;
     font-family: Cambria;
-    font-size: 20px;
-
+    font-size: 50px;
+    font-weight: bold;
 }
-
